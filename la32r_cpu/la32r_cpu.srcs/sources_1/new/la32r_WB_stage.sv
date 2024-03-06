@@ -22,7 +22,13 @@
 `include "la32r_define.h"
 
 module la32r_WB_stage(
+    input clk,
+    input rstn,
+    
+    // wb_allowin
+    output wb_allowin,
     // mem_to_wb_bus
+    input mem_to_wb_valid,
     input [`mem_to_wb_bus_length - 1 : 0] mem_to_wb_bus,
     // wb_to_id_bus
     output [`wb_to_id_bus_length - 1 : 0] wb_to_id_bus,
@@ -32,6 +38,11 @@ module la32r_WB_stage(
     output [ 4:0] debug_wb_rf_wnum,
     output [31:0] debug_wb_rf_wdata
     );
+
+    // wb_stage_signals
+    reg [`mem_to_wb_bus_length - 1 : 0] mem_to_wb_bus_r;
+    reg wb_valid;
+    wire wb_ready_go;
 
     // mem_to_wb_bus_signals
     wire wb_rf_we;
@@ -49,7 +60,7 @@ module la32r_WB_stage(
             wb_dest_reg,        // 68:64
             wb_final_result,    // 63:32
             wb_pc               // 31:0
-    } = mem_to_wb_bus;
+    } = mem_to_wb_bus_r;
 
     // wb_to_id_bus
     assign wb_rf_waddr = wb_dest_reg;
@@ -65,4 +76,22 @@ module la32r_WB_stage(
     assign debug_wb_rf_wen = wb_rf_we;
     assign debug_wb_rf_wnum = wb_rf_waddr;
     assign debug_wb_rf_wdata = wb_rf_wdata;
+
+    // wb_stage 
+    assign wb_ready_go = 1'b1;
+    assign wb_allowin = !wb_valid || wb_ready_go;
+
+    always @(posedge clk) begin
+        if(!rstn)
+            wb_valid <= 1'b0;
+        else if(wb_allowin)
+            wb_valid <= mem_to_wb_valid;
+         
+    end 
+
+    always @(posedge clk) begin
+        if(wb_allowin && mem_to_wb_valid)
+            mem_to_wb_bus_r <= mem_to_wb_bus;
+    end
+
 endmodule

@@ -22,9 +22,19 @@
 `include "la32r_define.h"
 
 module la32r_EX_stage(
+    input clk,
+    input rstn,
+
+    // ex_allowin
+    output ex_allowin,
+    // mem_allowin
+    input mem_allowin,
+
     // id_to_ex_bus
+    input id_to_ex_valid,
     input [`id_to_ex_bus_length - 1 : 0] id_to_ex_bus,
     // ex_to_mem_bus
+    output ex_to_mem_valid,
     output [`ex_to_mem_bus_length - 1 : 0] ex_to_mem_bus,
     // data_sram
     output        data_sram_en,
@@ -32,6 +42,11 @@ module la32r_EX_stage(
     output [31:0] data_sram_addr,
     output [31:0] data_sram_wdata
     );
+
+    // ex_stage_signals
+    reg [`id_to_ex_bus_length - 1 : 0] id_to_ex_bus_r;
+    reg ex_valid;
+    wire ex_ready_go;
 
     // id_to_ex_bus_signals
     wire [1:0] ex_alu_op;
@@ -70,7 +85,7 @@ module la32r_EX_stage(
             ex_rj_value,            // 95:64
             ex_rkd_value,            // 63:32
             ex_pc                   // 31:0
-    } = id_to_ex_bus;
+    } = id_to_ex_bus_r;
 
     // ex_to_mem_bus
     assign ex_to_mem_bus = {
@@ -101,5 +116,21 @@ module la32r_EX_stage(
     assign data_sram_addr = ex_alu_result;
     assign data_sram_wdata = ex_rkd_value;
 
+    // ex_stage
+    assign ex_ready_go = 1'b1;
+    assign ex_allowin = !ex_valid || ex_ready_go && mem_allowin;
+    assign ex_to_mem_valid = ex_valid && ex_ready_go;
+
+    always @(posedge clk) begin
+        if(!rstn)
+            ex_valid <= 1'b0;
+        else if(ex_allowin) 
+            ex_valid <= id_to_ex_valid; 
+    end
+
+    always @(posedge clk) begin
+        if(ex_allowin && id_to_ex_valid)
+            id_to_ex_bus_r <= id_to_ex_bus;
+    end
 
 endmodule

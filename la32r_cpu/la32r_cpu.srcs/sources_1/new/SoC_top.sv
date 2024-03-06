@@ -22,7 +22,10 @@
 
 module SoC_top(
     input clk,
-    input rstn
+    input rstn,
+
+    input rxd,
+    output txd
     );
 
     wire inst_sram_en;
@@ -45,21 +48,26 @@ module SoC_top(
     la32r_top  la32r_top_inst (
     .clk(clk),
     .rstn(rstn),
+    // inst_sram
     .inst_sram_en(inst_sram_en),
     .inst_sram_wen(inst_sram_wen),
     .inst_sram_addr(inst_sram_addr),
     .inst_sram_wdata(inst_sram_wdata),
     .inst_sram_rdata(inst_sram_rdata),
+    // data_sram
     .data_sram_en(data_sram_en),
     .data_sram_wen(data_sram_wen),
     .data_sram_addr(data_sram_addr),
     .data_sram_wdata(data_sram_wdata),
     .data_sram_rdata(data_sram_rdata),
+    // debug
     .debug_wb_pc(debug_wb_pc),
     .debug_wb_rf_wen(debug_wb_rf_wen),
     .debug_wb_rf_wnum(debug_wb_rf_wnum),
     .debug_wb_rf_wdata(debug_wb_rf_wdata)
   );
+
+  assign txd = 1'b1;
 
 
 endmodule

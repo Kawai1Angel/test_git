@@ -25,9 +25,12 @@ module la32r_IF_stage(
     input clk,
     input rstn,
 
+    // id_allowin
+    input id_allowin,
     // br_if bus
     input [`br_bus_length - 1 : 0]  br_bus,
     // if_id bus
+    output if_to_id_valid,
     output [`if_to_id_bus_length - 1 : 0] if_to_id_bus,
     // inst_sram
     output  inst_sram_en,
@@ -36,6 +39,12 @@ module la32r_IF_stage(
     output [31:0] inst_sram_wdata,
     input [31:0] inst_sram_rdata
     );
+
+    // if_stage
+    reg if_valid;
+    wire if_ready_go;
+    wire if_allowin;
+    wire to_if_valid;
 
     //br_bus_signals
     wire br_jump_en;
@@ -72,11 +81,25 @@ module la32r_IF_stage(
     assign inst_sram_addr = next_pc;
     assign inst_sram_wdata = 32'h0;
 
+    // if_stage
+    assign to_if_valid = rstn;
+
+    assign if_ready_go = 1'b1;
+    assign if_allowin = !if_valid || if_ready_go && id_allowin;
+    assign if_to_id_valid = if_valid && if_ready_go;
+
     always @(posedge clk) begin
         if(!rstn) 
-            if_pc <= 32'h1BFFFFFF;
-        else
+            if_valid <= 1'b0;
+        else if (if_allowin) 
+            if_valid <= to_if_valid;
+    end
+
+    always @(posedge clk) begin
+        if(!rstn) 
+            if_pc <= 32'h1BFFFFFC;
+        else if (to_if_valid && if_allowin)
             if_pc <= next_pc; 
-    end    
+    end
 
 endmodule

@@ -23,16 +23,29 @@
 
 module la32r_ID_stage(
     input clk,
+    input rstn,
+
+    // id_allowin
+    output id_allowin,
+    // ex_allowin
+    input ex_allowin,
 
     // if_id_bus
+    input if_to_id_valid,
     input [`if_to_id_bus_length - 1 : 0]  if_to_id_bus,
     // id_ex_bus
+    output id_to_ex_valid,
     output [`id_to_ex_bus_length - 1 : 0] id_to_ex_bus,
     // br_bus
     output [`br_bus_length - 1 : 0] br_bus,
     // wb_id_bus
     input [`wb_to_id_bus_length - 1 : 0]  wb_to_id_bus
     );
+
+    //id_stage_signals
+    reg [`if_to_id_bus_length - 1 : 0] if_to_id_bus_r;
+    reg id_valid;
+    wire id_ready_go;
 
     // if_to_id_bus_signals
     wire [31:0] id_inst;
@@ -130,7 +143,7 @@ module la32r_ID_stage(
     assign {
             id_inst,    // 63:32
             id_pc       // 31:0
-        } = if_to_id_bus;
+        } = if_to_id_bus_r;
 
     // id_to_ex_bus
     assign id_alu_op[0] = inst_addw | inst_addiw;
@@ -199,5 +212,22 @@ module la32r_ID_stage(
     assign rf_waddr = wb_rf_waddr;
     assign rf_wdata = wb_rf_wdata;
     assign rf_we = wb_rf_we;
+
+    // id_stage
+    assign id_ready_go = 1'b1;
+    assign id_allowin = !id_valid || id_ready_go && ex_allowin;
+    assign id_to_ex_valid = id_valid && id_ready_go;
+
+    always @(posedge clk) begin
+        if(!rstn) 
+            id_valid <= 1'b0;
+        else if(id_allowin)
+            id_valid <= if_to_id_valid;
+    end
+
+    always @(posedge clk) begin
+        if(if_to_id_valid && id_allowin) 
+            if_to_id_bus_r <= if_to_id_bus;
+    end
     
 endmodule

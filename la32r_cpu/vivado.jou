@@ -3,14 +3,14 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sun Feb 11 23:01:27 2024
-# Process ID: 19288
-# Current directory: C:/Users/15049/Desktop/CPU_learning/la32r_cpu
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32812 C:\Users\15049\Desktop\CPU_learning\la32r_cpu\la32r_cpu.xpr
-# Log file: C:/Users/15049/Desktop/CPU_learning/la32r_cpu/vivado.log
-# Journal file: C:/Users/15049/Desktop/CPU_learning/la32r_cpu\vivado.jou
-# Running On: Kawai1Angel, OS: Windows, CPU Frequency: 2495 MHz, CPU Physical cores: 32, Host memory: 16844 MB
+# Start of session at: Wed Mar  6 16:15:57 2024
+# Process ID: 14556
+# Current directory: C:/Users/15049/Desktop/work/la32r_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9756 C:\Users\15049\Desktop\work\la32r_cpu\la32r_cpu.xpr
+# Log file: C:/Users/15049/Desktop/work/la32r_cpu/vivado.log
+# Journal file: C:/Users/15049/Desktop/work/la32r_cpu\vivado.jou
+# Running On: LAPTOP-ASACNP1M, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16969 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/15049/Desktop/CPU_learning/la32r_cpu/la32r_cpu.xpr
+open_project C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.xpr
 update_compile_order -fileset sources_1
