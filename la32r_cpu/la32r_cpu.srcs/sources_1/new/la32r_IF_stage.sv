@@ -34,7 +34,7 @@ module la32r_IF_stage(
     output [`if_to_id_bus_length - 1 : 0] if_to_id_bus,
     // inst_sram
     output  inst_sram_en,
-    output  inst_sram_wen,
+    output  [3:0]inst_sram_wen,
     output [31:0] inst_sram_addr,
     output [31:0] inst_sram_wdata,
     input [31:0] inst_sram_rdata
@@ -77,7 +77,7 @@ module la32r_IF_stage(
 
     // inst_sram
     assign inst_sram_en = 1'b1;
-    assign inst_sram_wen = 1'b0;
+    assign inst_sram_wen = 4'h0;
     assign inst_sram_addr = next_pc;
     assign inst_sram_wdata = 32'h0;
 

@@ -177,7 +177,7 @@ module la32r_ID_stage(
                         };
 
     // br_bus
-    assign br_jump_en = inst_bne & ~(id_rj_value == id_rkd_value);
+    assign br_jump_en = inst_bne && ~(id_rj_value == id_rkd_value) && id_valid;
     assign br_jump_dest = {{4{id_inst[9]}}, id_inst[9:0], id_inst[25:10], 2'h0};
     assign br_bus = {
                     br_jump_en,     // 32:32

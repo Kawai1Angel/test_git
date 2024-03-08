@@ -29,20 +29,20 @@ module SoC_top(
     );
 
     wire inst_sram_en;
-    wire inst_sram_wen;
+    wire [3:0]  inst_sram_wen;
     wire [31:0] inst_sram_addr;
     wire [31:0] inst_sram_wdata;
     wire [31:0] inst_sram_rdata;
 
     wire data_sram_en;
-    wire data_sram_wen;
+    wire [3:0]  data_sram_wen;
     wire [31:0] data_sram_addr;
     wire [31:0] data_sram_wdata;
     wire [31:0] data_sram_rdata;
 
     wire [31:0] debug_wb_pc;
-    wire debug_wb_rf_wen;
-    wire [4:0] debug_wb_rf_wnum;
+    wire        debug_wb_rf_wen;
+    wire [4:0]  debug_wb_rf_wnum;
     wire [31:0] debug_wb_rf_wdata;
     
     la32r_top  la32r_top_inst (
@@ -65,6 +65,26 @@ module SoC_top(
     .debug_wb_rf_wen(debug_wb_rf_wen),
     .debug_wb_rf_wnum(debug_wb_rf_wnum),
     .debug_wb_rf_wdata(debug_wb_rf_wdata)
+  );
+
+  // inst_sram
+  inst_mem inst_sram (
+    .clka(clk),
+    .ena(inst_sram_en),
+    .wea(inst_sram_wen),
+    .dina(inst_sram_wdata),
+    .addra(inst_sram_addr[17:2]),
+    .douta(inst_sram_rdata)
+  );
+
+  // data_sram
+  data_mem data_sram (
+    .clka(clk),
+    .ena(data_sram_en),
+    .wea(data_sram_wen),
+    .dina(data_sram_wdata),
+    .addra(data_sram_addr[17:2]),
+    .douta(data_sram_rdata)
   );
 
   assign txd = 1'b1;

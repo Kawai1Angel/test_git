@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1709620107" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/la32r_top.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1709889577" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/la32r_top.dcp">
   <File Type="PA-TCL" Name="SoC_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="SoC_top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="SoC_top_reports.tcl"/>
   <File Type="RDS-RDS" Name="SoC_top.vds"/>
   <File Type="RDS-UTIL" Name="SoC_top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="SoC_top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="SoC_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SoC_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SoC_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/la32r_EX_stage.sv">
@@ -120,6 +123,6 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="inst_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="data_mem"/>
 </GenRun>

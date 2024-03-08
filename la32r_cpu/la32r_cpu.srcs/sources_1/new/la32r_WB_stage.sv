@@ -45,24 +45,26 @@ module la32r_WB_stage(
     wire wb_ready_go;
 
     // mem_to_wb_bus_signals
-    wire wb_rf_we;
+    wire mem_to_wb_rf_we;
     wire [4:0] wb_dest_reg;
     wire [31:0] wb_final_result;
     wire [31:0] wb_pc;
 
     // wb_to_id_bus_signals
+    wire wb_rf_we;
     wire [4:0] wb_rf_waddr;
     wire [31:0] wb_rf_wdata;
 
     // mem_to_wb_bus
     assign {
-            wb_rf_we,           // 69:69
+            mem_to_wb_rf_we,           // 69:69
             wb_dest_reg,        // 68:64
             wb_final_result,    // 63:32
             wb_pc               // 31:0
     } = mem_to_wb_bus_r;
 
     // wb_to_id_bus
+    assign wb_rf_we = mem_to_wb_rf_we && wb_valid;
     assign wb_rf_waddr = wb_dest_reg;
     assign wb_rf_wdata = wb_final_result;
     assign wb_to_id_bus = {

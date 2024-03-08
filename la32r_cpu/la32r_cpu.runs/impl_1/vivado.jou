@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Mar  5 14:29:33 2024
-# Process ID: 1840
+# Start of session at: Fri Mar  8 17:26:33 2024
+# Process ID: 18676
 # Current directory: C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.runs/impl_1
 # Command line: vivado.exe -log SoC_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SoC_top.tcl -notrace
 # Log file: C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.runs/impl_1/SoC_top.vdi

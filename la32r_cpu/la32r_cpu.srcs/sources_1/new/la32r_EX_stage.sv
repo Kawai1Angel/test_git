@@ -38,7 +38,7 @@ module la32r_EX_stage(
     output [`ex_to_mem_bus_length - 1 : 0] ex_to_mem_bus,
     // data_sram
     output        data_sram_en,
-    output data_sram_wen,
+    output [3:0]  data_sram_wen,
     output [31:0] data_sram_addr,
     output [31:0] data_sram_wdata
     );
@@ -112,7 +112,7 @@ module la32r_EX_stage(
 
     // data_sram
     assign data_sram_en = 1'b1;
-    assign data_sram_wen = ex_mem_we;
+    assign data_sram_wen = ex_mem_we && ex_valid ? 4'hf : 4'h0;
     assign data_sram_addr = ex_alu_result;
     assign data_sram_wdata = ex_rkd_value;
 

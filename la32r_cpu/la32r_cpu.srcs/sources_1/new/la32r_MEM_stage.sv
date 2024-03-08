@@ -85,7 +85,7 @@ module la32r_MEM_stage(
     end
 
     always @(posedge clk) begin
-        if(mem_valid && ex_to_mem_valid) 
+        if(mem_allowin && ex_to_mem_valid) 
             ex_to_mem_bus_r <= ex_to_mem_bus;
     end
 
