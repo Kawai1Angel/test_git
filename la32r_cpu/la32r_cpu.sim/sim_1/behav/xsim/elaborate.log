@@ -1,0 +1,34 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.la32r_IF_stage
+Compiling module xil_defaultlib.decoder_6
+Compiling module xil_defaultlib.decoder_4
+Compiling module xil_defaultlib.decoder_7
+Compiling module xil_defaultlib.la32r_regfile
+Compiling module xil_defaultlib.la32r_ID_stage
+Compiling module xil_defaultlib.la32r_alu
+Compiling module xil_defaultlib.la32r_EX_stage
+Compiling module xil_defaultlib.la32r_MEM_stage
+Compiling module xil_defaultlib.la32r_WB_stage
+Compiling module xil_defaultlib.la32r_top
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_mem
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.SoC_top
+Compiling module xil_defaultlib.SoC_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SoC_CPU_tb_behav

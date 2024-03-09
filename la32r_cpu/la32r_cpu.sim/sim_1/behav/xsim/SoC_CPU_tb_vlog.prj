@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../la32r_cpu.gen/sources_1/ip/data_mem/sim/data_mem.v" \
+"../../../../la32r_cpu.gen/sources_1/ip/inst_mem_1/sim/inst_mem.v" \
+
+sv xil_defaultlib  \
+"../../../../la32r_cpu.srcs/sources_1/new/SoC_top.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_alu.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_regfile.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_tools.sv" \
+"../../../../la32r_cpu.srcs/sources_1/new/la32r_top.sv" \
+"../../../../la32r_cpu.srcs/sim_1/new/SoC_CPU_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

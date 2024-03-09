@@ -1,0 +1,1023 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Mar  6 08:09:37 2024
+# Process ID: 9404
+# Current directory: C:/Users/15049/Desktop/work/la32r_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6848 C:\Users\15049\Desktop\work\la32r_cpu\la32r_cpu.xpr
+# Log file: C:/Users/15049/Desktop/work/la32r_cpu/vivado.log
+# Journal file: C:/Users/15049/Desktop/work/la32r_cpu\vivado.jou
+# Running On: LAPTOP-ASACNP1M, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16969 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:12 . Memory (MB): peak = 1451.977 ; gain = 374.242
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SoC_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SoC_CPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/test_cpu_ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SoC_CPU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'txd' might have multiple concurrent drivers [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sim_1/new/SoC_CPU_tb.sv:34]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SoC_CPU_tb_behav -key {Behavioral:sim_1:Functional:SoC_CPU_tb} -tclbatch {SoC_CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SoC_CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_0_inst.inst at time                19000 ns: 
+Reading from out-of-range address. Max address in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_0_inst.inst is        8191
+WARNING in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_1_inst.inst at time                19000 ns: 
+Reading from out-of-range address. Max address in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_1_inst.inst is        8191
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SoC_CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1508.969 ; gain = 47.250
+synth_design -top SoC_top -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top SoC_top -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2303.398 ; gain = 187.676
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'SoC_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (1#1) [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_1' [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_1' (2#1) [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'la32r_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_IF_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_IF_stage' (3#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_ID_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'decoder_6' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_6' (4#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6157] synthesizing module 'decoder_4' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_4' (5#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'decoder_7' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_7' (6#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6157] synthesizing module 'la32r_regfile' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'la32r_regfile' (7#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_ID_stage' (8#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_EX_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_alu' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_alu' (9#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_EX_stage' (10#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_MEM_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_MEM_stage' (11#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_WB_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_WB_stage' (12#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_top' (13#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'SoC_top' (14#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2400.445 ; gain = 284.723
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Mar  6 08:22:29 2024
+| Host         : LAPTOP-ASACNP1M running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-6  | 12           | 0        |
+| ASSIGN-10 | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'data_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'data_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 39.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'data_sram_en' was assigned but not read. 
+RTL Name 'data_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 37.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_pc' was assigned but not read. 
+RTL Name 'debug_wb_pc', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 43.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wdata' was assigned but not read. 
+RTL Name 'debug_wb_rf_wdata', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 46.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wen' was assigned but not read. 
+RTL Name 'debug_wb_rf_wen', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 44.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wnum' was assigned but not read. 
+RTL Name 'debug_wb_rf_wnum', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 45.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'inst_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'inst_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 33.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'inst_sram_en' was assigned but not read. 
+RTL Name 'inst_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 31.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'rxd' are not read. First unused bit index is 0. 
+RTL Name 'rxd', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 27.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func1_d' are not read. First unread bit index is 1. 
+RTL Name 'func1_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 75.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func2_d' are not read. First unread bit index is 0. 
+RTL Name 'func2_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 76.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'opcode_d' are not read. First unread bit index is 1. 
+RTL Name 'opcode_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 74.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'add_cout' was assigned but not read. 
+RTL Name 'add_cout', Hierarchy 'la32r_alu', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv', Line 39.
+INFO: [Synth 37-85] Total of 13 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.dcp' for cell 'dist_mem_gen_0_inst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.dcp' for cell 'dist_mem_gen_1_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2410.215 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2304 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2512.555 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2512.555 ; gain = 396.832
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SoC_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SoC_CPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/test_cpu_ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SoC_CPU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SoC_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_EX_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_ID_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_IF_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_MEM_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_WB_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_4
+INFO: [VRFC 10-311] analyzing module decoder_6
+INFO: [VRFC 10-311] analyzing module decoder_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sim_1/new/SoC_CPU_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SoC_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_1
+Compiling module xil_defaultlib.la32r_IF_stage
+Compiling module xil_defaultlib.decoder_6
+Compiling module xil_defaultlib.decoder_4
+Compiling module xil_defaultlib.decoder_7
+Compiling module xil_defaultlib.la32r_regfile
+Compiling module xil_defaultlib.la32r_ID_stage
+Compiling module xil_defaultlib.la32r_alu
+Compiling module xil_defaultlib.la32r_EX_stage
+Compiling module xil_defaultlib.la32r_MEM_stage
+Compiling module xil_defaultlib.la32r_WB_stage
+Compiling module xil_defaultlib.la32r_top
+Compiling module xil_defaultlib.SoC_top
+Compiling module xil_defaultlib.SoC_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SoC_CPU_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2512.555 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SoC_CPU_tb_behav -key {Behavioral:sim_1:Functional:SoC_CPU_tb} -tclbatch {SoC_CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SoC_CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_0_inst.inst at time                19000 ns: 
+Reading from out-of-range address. Max address in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_0_inst.inst is        8191
+WARNING in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_1_inst.inst at time                19000 ns: 
+Reading from out-of-range address. Max address in SoC_CPU_tb.SoC_top_inst.dist_mem_gen_1_inst.inst is        8191
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SoC_CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 2512.555 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -top SoC_top -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top SoC_top -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2512.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'SoC_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+ERROR: [Synth 8-439] module 'dist_mem_gen_0' not found [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:48]
+ERROR: [Synth 8-6156] failed synthesizing module 'SoC_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2512.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2512.555 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name dist_mem_gen_2
+set_property -dict [list \
+  CONFIG.coefficient_file {C:/Users/15049/Desktop/work/test_cpu_ins.coe} \
+  CONFIG.data_width {32} \
+  CONFIG.depth {8192} \
+] [get_ips dist_mem_gen_2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/15049/Desktop/work/test_cpu_ins.coe' provided. It will be converted relative to IP Instance files '../../../../../test_cpu_ins.coe'
+generate_target {instantiation_template} [get_files c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_2'...
+generate_target all [get_files  c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dist_mem_gen_2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'dist_mem_gen_2'...
+catch { config_ip_cache -export [get_ips -all dist_mem_gen_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dist_mem_gen_2
+export_ip_user_files -of_objects [get_files c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci]
+launch_runs dist_mem_gen_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dist_mem_gen_2
+[Wed Mar  6 08:30:47 2024] Launched dist_mem_gen_2_synth_1...
+Run output will be captured here: C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.runs/dist_mem_gen_2_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci] -directory C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.ip_user_files -ipstatic_source_dir C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.cache/compile_simlib/modelsim} {questa=C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.cache/compile_simlib/questa} {riviera=C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.cache/compile_simlib/riviera} {activehdl=C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+synth_design -top SoC_top -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top SoC_top -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2512.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'SoC_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (1#1) [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'la32r_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_IF_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_IF_stage' (2#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_ID_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'decoder_6' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_6' (3#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6157] synthesizing module 'decoder_4' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_4' (4#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'decoder_7' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_7' (5#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6157] synthesizing module 'la32r_regfile' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'la32r_regfile' (6#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_ID_stage' (7#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_EX_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_alu' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_alu' (8#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_EX_stage' (9#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_MEM_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_MEM_stage' (10#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_WB_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_WB_stage' (11#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_top' (12#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'SoC_top' (13#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2512.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Mar  6 08:31:00 2024
+| Host         : LAPTOP-ASACNP1M running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-6  | 12           | 0        |
+| ASSIGN-10 | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'data_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'data_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 39.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'data_sram_en' was assigned but not read. 
+RTL Name 'data_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 37.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_pc' was assigned but not read. 
+RTL Name 'debug_wb_pc', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 43.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wdata' was assigned but not read. 
+RTL Name 'debug_wb_rf_wdata', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 46.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wen' was assigned but not read. 
+RTL Name 'debug_wb_rf_wen', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 44.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wnum' was assigned but not read. 
+RTL Name 'debug_wb_rf_wnum', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 45.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'inst_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'inst_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 33.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'inst_sram_en' was assigned but not read. 
+RTL Name 'inst_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 31.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'rxd' are not read. First unused bit index is 0. 
+RTL Name 'rxd', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 27.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func1_d' are not read. First unread bit index is 1. 
+RTL Name 'func1_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 75.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func2_d' are not read. First unread bit index is 0. 
+RTL Name 'func2_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 76.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'opcode_d' are not read. First unread bit index is 1. 
+RTL Name 'opcode_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 74.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'add_cout' was assigned but not read. 
+RTL Name 'add_cout', Hierarchy 'la32r_alu', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv', Line 39.
+INFO: [Synth 37-85] Total of 13 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.dcp' for cell 'inst_mem'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2512.555 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2304 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2600.828 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2600.828 ; gain = 88.273
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SoC_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'dist_mem_gen_2' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/xelab.pb
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SoC_CPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/test_cpu_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/dist_mem_gen_2.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SoC_CPU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_0_1/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SoC_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_EX_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_ID_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_IF_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_MEM_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_WB_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_4
+INFO: [VRFC 10-311] analyzing module decoder_6
+INFO: [VRFC 10-311] analyzing module decoder_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sim_1/new/SoC_CPU_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SoC_CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.la32r_IF_stage
+Compiling module xil_defaultlib.decoder_6
+Compiling module xil_defaultlib.decoder_4
+Compiling module xil_defaultlib.decoder_7
+Compiling module xil_defaultlib.la32r_regfile
+Compiling module xil_defaultlib.la32r_ID_stage
+Compiling module xil_defaultlib.la32r_alu
+Compiling module xil_defaultlib.la32r_EX_stage
+Compiling module xil_defaultlib.la32r_MEM_stage
+Compiling module xil_defaultlib.la32r_WB_stage
+Compiling module xil_defaultlib.la32r_top
+Compiling module xil_defaultlib.SoC_top
+Compiling module xil_defaultlib.SoC_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SoC_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SoC_CPU_tb_behav -key {Behavioral:sim_1:Functional:SoC_CPU_tb} -tclbatch {SoC_CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SoC_CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in SoC_CPU_tb.SoC_top_inst.inst_mem.inst at time                19000 ns: 
+Reading from out-of-range address. Max address in SoC_CPU_tb.SoC_top_inst.inst_mem.inst is        8191
+WARNING in SoC_CPU_tb.SoC_top_inst.data_mem.inst at time                19000 ns: 
+Reading from out-of-range address. Max address in SoC_CPU_tb.SoC_top_inst.data_mem.inst is        8191
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SoC_CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 2600.828 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -top SoC_top -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top SoC_top -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2600.828 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'SoC_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (1#1) [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'la32r_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_IF_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_IF_stage' (2#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_ID_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'decoder_6' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_6' (3#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6157] synthesizing module 'decoder_4' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_4' (4#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'decoder_7' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_7' (5#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6157] synthesizing module 'la32r_regfile' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'la32r_regfile' (6#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_ID_stage' (7#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_EX_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_alu' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_alu' (8#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_EX_stage' (9#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_MEM_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_MEM_stage' (10#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_WB_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_WB_stage' (11#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_top' (12#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'SoC_top' (13#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2600.828 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Mar  6 08:32:08 2024
+| Host         : LAPTOP-ASACNP1M running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-6  | 12           | 0        |
+| ASSIGN-10 | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'data_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'data_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 39.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'data_sram_en' was assigned but not read. 
+RTL Name 'data_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 37.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_pc' was assigned but not read. 
+RTL Name 'debug_wb_pc', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 43.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wdata' was assigned but not read. 
+RTL Name 'debug_wb_rf_wdata', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 46.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wen' was assigned but not read. 
+RTL Name 'debug_wb_rf_wen', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 44.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wnum' was assigned but not read. 
+RTL Name 'debug_wb_rf_wnum', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 45.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'inst_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'inst_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 33.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'inst_sram_en' was assigned but not read. 
+RTL Name 'inst_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 31.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'rxd' are not read. First unused bit index is 0. 
+RTL Name 'rxd', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 27.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func1_d' are not read. First unread bit index is 1. 
+RTL Name 'func1_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 75.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func2_d' are not read. First unread bit index is 0. 
+RTL Name 'func2_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 76.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'opcode_d' are not read. First unread bit index is 1. 
+RTL Name 'opcode_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 74.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'add_cout' was assigned but not read. 
+RTL Name 'add_cout', Hierarchy 'la32r_alu', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv', Line 39.
+INFO: [Synth 37-85] Total of 13 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.dcp' for cell 'inst_mem'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2600.828 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2304 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2607.402 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2607.402 ; gain = 6.574
+export_ip_user_files -of_objects  [get_files c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci] -no_script -reset -force -quiet
+remove_files  -fileset dist_mem_gen_2 c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci
+INFO: [Project 1-386] Moving file 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci' from fileset 'dist_mem_gen_2' to fileset 'sources_1'.
+synth_design -top SoC_top -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top SoC_top -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2607.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'SoC_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (1#1) [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_1' [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_1' (2#1) [C:/Users/15049/Desktop/work/la32r_cpu/.Xil/Vivado-9404-LAPTOP-ASACNP1M/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'la32r_top' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_IF_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_IF_stage' (3#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_ID_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'decoder_6' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_6' (4#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:35]
+INFO: [Synth 8-6157] synthesizing module 'decoder_4' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_4' (5#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'decoder_7' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_7' (6#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv:48]
+INFO: [Synth 8-6157] synthesizing module 'la32r_regfile' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'la32r_regfile' (7#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_ID_stage' (8#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_EX_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_alu' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_alu' (9#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_EX_stage' (10#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_MEM_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_MEM_stage' (11#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'la32r_WB_stage' [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_WB_stage' (12#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'la32r_top' (13#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'SoC_top' (14#1) [C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2607.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Mar  6 08:33:22 2024
+| Host         : LAPTOP-ASACNP1M running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-6  | 12           | 0        |
+| ASSIGN-10 | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'data_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'data_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 39.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'data_sram_en' was assigned but not read. 
+RTL Name 'data_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 37.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_pc' was assigned but not read. 
+RTL Name 'debug_wb_pc', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 43.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wdata' was assigned but not read. 
+RTL Name 'debug_wb_rf_wdata', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 46.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wen' was assigned but not read. 
+RTL Name 'debug_wb_rf_wen', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 44.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'debug_wb_rf_wnum' was assigned but not read. 
+RTL Name 'debug_wb_rf_wnum', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 45.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'inst_sram_addr' are not read. First unread bit index is 0. 
+RTL Name 'inst_sram_addr', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 33.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'inst_sram_en' was assigned but not read. 
+RTL Name 'inst_sram_en', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 31.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'rxd' are not read. First unused bit index is 0. 
+RTL Name 'rxd', Hierarchy 'SoC_top', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv', Line 27.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func1_d' are not read. First unread bit index is 1. 
+RTL Name 'func1_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 75.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'func2_d' are not read. First unread bit index is 0. 
+RTL Name 'func2_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 76.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'opcode_d' are not read. First unread bit index is 1. 
+RTL Name 'opcode_d', Hierarchy 'la32r_ID_stage', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv', Line 74.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'add_cout' was assigned but not read. 
+RTL Name 'add_cout', Hierarchy 'la32r_alu', File 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv', Line 39.
+INFO: [Synth 37-85] Total of 13 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.dcp' for cell 'inst_mem'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.dcp' for cell 'data_mem'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2607.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2304 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/15049/Desktop/work/la32r_cpu/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2623.047 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 2623.047 ; gain = 15.645
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SoC_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SoC_CPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim/test_cpu_ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SoC_CPU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/SoC_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SoC_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_EX_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_EX_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_ID_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_ID_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_IF_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_IF_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_MEM_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_MEM_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_WB_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_WB_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_tools.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_4
+INFO: [VRFC 10-311] analyzing module decoder_6
+INFO: [VRFC 10-311] analyzing module decoder_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/new/la32r_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module la32r_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sim_1/new/SoC_CPU_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SoC_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SoC_CPU_tb_behav xil_defaultlib.SoC_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_1
+Compiling module xil_defaultlib.la32r_IF_stage
+Compiling module xil_defaultlib.decoder_6
+Compiling module xil_defaultlib.decoder_4
+Compiling module xil_defaultlib.decoder_7
+Compiling module xil_defaultlib.la32r_regfile
+Compiling module xil_defaultlib.la32r_ID_stage
+Compiling module xil_defaultlib.la32r_alu
+Compiling module xil_defaultlib.la32r_EX_stage
+Compiling module xil_defaultlib.la32r_MEM_stage
+Compiling module xil_defaultlib.la32r_WB_stage
+Compiling module xil_defaultlib.la32r_top
+Compiling module xil_defaultlib.SoC_top
+Compiling module xil_defaultlib.SoC_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SoC_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SoC_CPU_tb_behav -key {Behavioral:sim_1:Functional:SoC_CPU_tb} -tclbatch {SoC_CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SoC_CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SoC_CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 2623.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+export_ip_user_files -of_objects  [get_files C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset dist_mem_gen_0 C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.xci
+INFO: [Project 1-386] Moving file 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.xci' from fileset 'dist_mem_gen_0' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci] -no_script -reset -force -quiet
+remove_files  -fileset dist_mem_gen_1 C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci
+INFO: [Project 1-386] Moving file 'C:/Users/15049/Desktop/work/la32r_cpu/la32r_cpu.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci' from fileset 'dist_mem_gen_1' to fileset 'sources_1'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  6 08:42:35 2024...
